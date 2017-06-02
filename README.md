@@ -14,3 +14,23 @@ return $scope.name;
 console.log("change detected: " + newValue)
 });
 ``` 
+##### Highlight active navigation 
+```
+<body ng-controller="MainCtrl">
+<ul class="menu">
+<li ng-class="menuClass('persons')"><a href="#!persons">Home</a></li>
+<li ng-class="menuClass('help')"><a href="#!help">Help</a></li>
+</ul>
+...
+</body>
+```
+
+```
+app.controller("MainCtrl", function($scope, $location) {
+$scope.menuClass = function(page) {
+var current = $location.path().substring(1);
+return page === current ? "active" : "";
+};
+});
+
+```
