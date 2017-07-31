@@ -34,3 +34,16 @@ return page === current ? "active" : "";
 });
 
 ```
+
+##Commit all messages in Git 
+
+```
+git commit --amend -m "New commit message"
+
+git push --force origin <BRANCH-NAME>
+
+```
+
+and Thats it!
+
+Cheers!!
