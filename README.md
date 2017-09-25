@@ -70,7 +70,9 @@ console.log("Synchronous read: " + data.toString());
 console.log("Program Ended");
 
 ```
+
 ### Write Stream in NodeJS
+
 
 ````
 var http = require("http");
