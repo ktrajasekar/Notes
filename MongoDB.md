@@ -1,8 +1,8 @@
-```
+Starting Mongo 
 
-mongod --port 27017 --dbpath "C:\data\db"
+>mongod --port 27017 --dbpath "C:\data\db"
 
-```
+
 
 Basic MongpDB Commands. 
 > use database_name 
@@ -11,3 +11,5 @@ Basic MongpDB Commands.
 > db.testname.insert(s);
 
 >Show dbs
+
+>
