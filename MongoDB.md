@@ -17,7 +17,9 @@ Basic MongpDB Commands.
 ##Installing Mongo in Node 
 
 >npm install mongodb -g
+
 >cd /path/to/my/app/folder
+
 >npm link mongodb
 
 ```
@@ -30,6 +32,42 @@ MongoClient.connect(url, function(err,db){
 if(err) throw err;
 console.log("DB Created");
 db.close();
+});
+
+```
+
+### Inserting OBJ in Collections
+
+```
+MongoClient.connect(url, function(err,db){
+if(err) throw err;
+var customersData ={Name : "Rajasekar", Empid:"548754"};
+db.collection("customers").insertOne(customersData, function(err, res){
+    if(err) throw err;
+    console.log("one Instered Created");
+    db.close(); 
+}); 
+
+});
+
+```
+### Inserting Many OBJ in Collections
+
+```
+
+MongoClient.connect(url, function(err,db){
+if(err) throw err;
+var customersData =[
+    {Name : "Rajasekar", Empid:"548754"},
+    {Name : "Thangavel", Empid:"548421"},
+    {Name : "Prakash", Empid:"74548754"},
+    {Name : "Raja", Empid:"548754"},
+];
+db.collection("customers").insertMany(customersData, function(err, res){
+    if(err) throw err;
+    console.log("No Of docs instered - " + res.insertedCount);
+    db.close(); 
+    }); 
 });
 
 ```
