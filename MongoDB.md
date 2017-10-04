@@ -92,3 +92,19 @@ db.collection("customers").find({}).toArray(function(err, result){
 });
 ```
 
+### Delete and Drop collection data 
+
+```
+ db.collection("customers").drop(function(err, delOK) {
+    if (err) throw err;
+    if (delOK) console.log("Collection deleted");
+    db.close();
+  });
+  
+ ```
+
+   db.dropCollection("customers", function(err, delOK) {
+    if (err) throw err;
+    if (delOK) console.log("Collection deleted");
+    db.close();
+  });
