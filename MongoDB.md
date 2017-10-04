@@ -71,3 +71,24 @@ db.collection("customers").insertMany(customersData, function(err, res){
 });
 
 ```
+
+### Finding in Collections
+
+```
+db.collection("customers").findOne({}, function(err, result){
+    if(err) throw err; 
+    console.log(result.Name);
+    db.close;
+
+});
+
+```
+```
+db.collection("customers").find({}).toArray(function(err, result){
+    if(err) throw err; 
+    console.log(result);
+    db.close;
+
+});
+```
+
