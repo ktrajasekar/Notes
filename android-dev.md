@@ -17,3 +17,18 @@
 
 ```
 Ref : https://stackoverflow.com/questions/29047902/how-to-add-an-image-to-the-drawable-folder-in-android-studio
+
+### Linking to other page 
+
+```
+import android.content.Intent;
+
+   public void nextPage(View view){
+        Log.d(TAG, "testing ---------------------> ~~~~~~~~~~~~~~~~~~~~~~~~");
+        Intent intent = new Intent(this, userChoice.class);
+        startActivity(intent);
+        Log.d(TAG, "End ---------------------> ~~~~~~~~~~~~~~~~~~~~~~~~");
+    }
+    
+ ```
+ 
