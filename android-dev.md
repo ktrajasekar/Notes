@@ -37,3 +37,12 @@ import android.content.Intent;
  Toast.makeText(getApplicationContext(), "Invalid Login Details",Toast.LENGTH_SHORT).show();
  
  ```
+ ### Go Back Override 
+
+```
+@Override
+public void onBackPressed(){
+  Intent intent = new Intent(this, ActivityYouWanToGoBack.class);
+  startActivity(intent);
+}
+```
