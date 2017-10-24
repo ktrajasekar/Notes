@@ -31,4 +31,9 @@ import android.content.Intent;
     }
     
  ```
+ ### Toast Notification
+
+```
+ Toast.makeText(getApplicationContext(), "Invalid Login Details",Toast.LENGTH_SHORT).show();
  
+ ```
