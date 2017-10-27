@@ -46,3 +46,21 @@ public void onBackPressed(){
   startActivity(intent);
 }
 ```
+
+### Gradient in Android UI
+```
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:type="linear"
+        android:angle="0"
+        android:startColor="#f6ee19"
+        android:endColor="#115ede" />
+</shape>
+
+View ---
+
+ android:background="@drawable/my_gradient_drawable"
+```
+
+
