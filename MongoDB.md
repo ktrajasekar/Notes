@@ -1,6 +1,9 @@
 Starting Mongo 
 
->"C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" --dbpath d:\test\mongodb\dat
+> "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" --dbpath d:\test\mongodb\dat
+> "C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe"
+
+When you defined in env variable
 
 >mongod --port 27017 --dbpath "C:\data\db"
 
