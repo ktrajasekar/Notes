@@ -1,7 +1,10 @@
 Starting Mongo 
 
+>"C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" --dbpath d:\test\mongodb\dat
+
 >mongod --port 27017 --dbpath "C:\data\db"
 
+More Info - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 
 
 Basic MongpDB Commands. 
