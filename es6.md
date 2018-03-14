@@ -43,3 +43,6 @@ const
 Example : 
 
     const pi = 3.14159265359;
+
+### promise in ES6
+Promises — resolve/reject/.then: Promises became less clunky too. The resolve/reject feature is pretty cool (resolve = do this when the promise is resolved, reject = do this if there is an error and the function is rejected). Plus there’s ‘.then’ — this is saying ‘when you’re done and have all the information you need, then do this.’ This allows you to not have to pass in a parameter to the function that takes care of what happens when the promise has been fulfilled.
