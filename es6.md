@@ -63,10 +63,12 @@ Promises — resolve/reject/.then: Promises became less clunky too. The reso
 let mul = (num1, num2) => console.log(num1 * num2);
 
 ```
+```
 o/p : 
 mul(10,10);
-> 100
+100
 
+```
 > Arrow function with default parameters 
 
 ```javascript
@@ -75,8 +77,10 @@ let mul = (num1, num2=10) => console.log(num1 * num2);
 
 ```
 
+```
 o/p : 
 mul(10);
-> 100
+100
+```
 
 
