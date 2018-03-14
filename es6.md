@@ -1,11 +1,12 @@
 ## ES6
 
 ### Variables
+#### block-scoped variables
 *const, let and var*
  - Var - Not an block level variable
  -  let - block level variable
 
-Example : 
+Example : block-scoped variables
 Var - Not an block level variable
 
     function vartesting(){
