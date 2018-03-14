@@ -11,15 +11,16 @@ Var - Not an block level variable
 
 ```javascript
 
-    function vartesting(){
+    function vartesting() {
     var testvar = 'Rajasekar',
-    Today = 'monday';
-    if(Today === 'monday'){
-    	var testvar = "Prakash";
-    	console.log('My Name ' + testvar);
+        Today = 'monday';
+    if (Today === 'monday') {
+        var testvar = "Prakash";
+        console.log('My Name ' + testvar);
     }
     console.log('My Name ' + testvar)
-    }
+}
+
   ```
 o/p
 
@@ -30,15 +31,16 @@ Example : Let
 
 ```javascript
 
- function vartesting(){
-        let testvar = 'Rajasekar',
+ function vartesting() {
+    let testvar = 'Rajasekar',
         Today = 'monday';
-        if(Today === 'monday'){
-        	let testvar = "Prakash";
-        	console.log('My Name ' + testvar);
-        }
-        console.log('My Name ' + testvar)
-        }
+    if (Today === 'monday') {
+        let testvar = "Prakash";
+        console.log('My Name ' + testvar);
+    }
+    console.log('My Name ' + testvar)
+}
+
    ```
 o/p
 
