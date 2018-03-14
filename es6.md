@@ -38,3 +38,7 @@ o/p
 
     My Name Prakash
     My Name Rajasekar
+const
+Example : 
+
+    const pi = 3.14159265359;
