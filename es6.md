@@ -19,5 +19,22 @@ Var - Not an block level variable
     }
 o/p
 
->     My Name Prakash
->     My Name Prakash
+    My Name Prakash
+    My Name Prakash
+
+Example : Let    
+
+    function vartesting(){
+        let testvar = 'Rajasekar',
+        Today = 'monday';
+        if(Today === 'monday'){
+        	let testvar = "Prakash";
+        	console.log('My Name ' + testvar);
+        }
+        console.log('My Name ' + testvar)
+        }
+
+o/p
+
+    My Name Prakash
+    My Name Rajasekar
