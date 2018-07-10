@@ -16,3 +16,23 @@ const styles = {
 <label style={styles.enddateLabel}>End Date </label>
 
 ````
+### Stateless Functional Component:
+```
+
+const Comments = props => {
+    return (
+        <div></div>
+    );
+}
+```
+### Component which just has a render method:
+
+```
+class Comments extends Component {
+    render() {
+        return (
+            <div></div>
+        );
+    }
+}
+```
